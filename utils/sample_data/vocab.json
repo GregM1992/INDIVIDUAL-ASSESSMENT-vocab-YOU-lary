@@ -1,0 +1,50 @@
+{
+  "-Kl3UasOJZq": {
+    "word": "haste",
+    "vocabType": "keyword",
+    "definition": "Haste is a keyword ability that allows a creature to circumvent summoning sickness. Creatures with haste can attack or use activated abilities with the tap symbol in the activation cost even if they have not been continuously controlled by a player since the beginning of that player's most recent turn.",
+    "uid": ""
+  },
+  "-RMs1U9KZ44": {
+    "word": "permanent",
+    "vocabType": "card type",
+    "definition": "A card or token on the battlefield. Permanents can be artifacts, creatures, enchantments, or lands. Once a permanent is on the battlefield, it stays there until it's destroyed, exiled, sacrificed, or otherwise removed according to the game rules. You can't remove a permanent from the battlefield just because you want to, even if you control it.",
+    "uid": ""
+  },
+  "-aA2uA2Van5": {
+    "word": "main phase",
+    "vocabType": "turn structure",
+    "definition": "The main phase is both the second and fourth phases of a turn. Non-instants can usually only be played during this phase, only by the active player, and only when the stack is empty.",
+    "uid": ""
+  },
+  "-H7iGek7NKG": {
+    "word": "the stack",
+    "vocabType": "turn structure",
+    "definition": "An imaginary place where spells and abilities go when waiting to resolve. Anything that happens after a spell or ability goes on the stack will then go on the stack on top of that, creating an ordering of how things resolve, starting with the most recent ability or spell added to the stack.",
+    "uid": ""
+  },
+  "-vbNIbuGscD": {
+    "word": "converted mana cost",
+    "vocabType": "lingo",
+    "definition": "The total cost of a card, in mana, to cast it.",
+    "uid": ""
+  },
+  "-lFkrqjcggw": {
+    "word": "trample",
+    "vocabType": "keyword",
+    "definition": "A keyword ability that changes the rules for assigning damage in the Combat Damage Step. An attacker with trample deals excess damage to the defending player, planeswalker or battle even if it is blocked.",
+    "uid": ""
+  },
+  "-8KcYFO3Ln1": {
+    "word": "upkeep",
+    "vocabType": "turn structure",
+    "definition": "The second step of your turn, between your untap and draw steps. It's meant for triggers that are set to happen before your draw step and open up the opportunity for players to cast spells and activate other abilities before a player's draw step, but after they've untapped.",
+    "uid": ""
+  },
+  "-X5PpeWNCjB": {
+    "word": "recursion",
+    "vocabType": "lingo",
+    "definition": "Cards or strategies that return cards from the graveyard to a player's hand, or allow players to re-use cards from their graveyards.",
+    "uid": ""
+  }
+}

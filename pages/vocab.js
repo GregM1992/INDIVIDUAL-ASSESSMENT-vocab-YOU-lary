@@ -9,7 +9,7 @@ const noVocab = () => {
 const showVocab = (array) => {
   clearDom();
 
-  const btnString = '<button type="button" class="btn btn-outline-success">Add A Term</button>';
+  const btnString = '<button type="button" class="btn btn-outline-success" id="add-term-btn">Add A Term</button>';
   renderToDom('#add-button', btnString);
 
   let domString = '';

@@ -11,10 +11,10 @@ const navBar = () => {
      <div class="collapse navbar-collapse" id="navbarSupportedContent">
        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
          <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="#">All</a>
+           <a class="nav-link active" aria-current="page" href="#" id="all-vocab">All</a>
          </li>
          <li class="nav-item">
-         <a class="nav-link active" aria-current="page" href="#">By term type</a>
+         <a class="nav-link active" aria-current="page" href="#" id="term-type">By term type</a>
        </li>
        </ul>
        <form class="d-flex" role="search">

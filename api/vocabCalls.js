@@ -43,4 +43,18 @@ const createTerm = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-export { getVocab, getSingleTerm, createTerm };
+const updateTerm = (payload) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab/${payload.firebaseKey}.json`, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(payload)
+  }).then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
+export {
+  getVocab, getSingleTerm, createTerm, updateTerm
+};

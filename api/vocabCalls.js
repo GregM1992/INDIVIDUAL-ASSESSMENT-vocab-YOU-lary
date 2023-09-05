@@ -44,7 +44,7 @@ const createTerm = (payload) => new Promise((resolve, reject) => {
 });
 
 const updateTerm = (payload) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/books/${payload.firebaseKey}.json`, {
+  fetch(`${endpoint}/vocab/${payload.firebaseKey}.json`, {
     method: 'PATCH',
     headers: {
       'Content-Type': 'application/json'

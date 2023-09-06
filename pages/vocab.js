@@ -23,8 +23,9 @@ const showVocab = (array) => {
           <h5 class="card-title">${term.term}</h5>
           <h6 class="card-subtitle mb-2 text-body-secondary">${term.vocabType}</h6>
           <p class="card-text">${term.definition}</p>
-          <button type="button" class="btn btn-outline-info">Update</button>
-          <button type="button" class="btn btn-outline-danger">Delete</button>
+          <button type="button" class="btn btn-outline-info" id="update-btn--${term.firebaseKey}"
+          >Update</button>
+          <button type="button" class="btn btn-outline-danger" id="delete-btn--${term.firebaseKey}">Delete</button>
         </div>
       </div>`;
     });

@@ -10,7 +10,7 @@ const startApp = (user) => {
   navbar(user);
   getVocab(user.uid).then((terms) => showVocab(terms));
   formEvents(user);
-  domEvents();
+  domEvents(user);
 };
 
 export default startApp;

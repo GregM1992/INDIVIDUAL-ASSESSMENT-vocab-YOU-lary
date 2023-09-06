@@ -16,7 +16,7 @@ const addTermForm = (uid, word = {}) => {
       </div>
       <div class="form-group">
         <label for="description">Definition</label>
-        <textarea class="form-control" placeholder="Definition" id="definition" style="height: 100px">${word.description || ''}</textarea>
+        <textarea class="form-control" placeholder="Definition" id="definition" style="height: 100px">${word.definition || ''}</textarea>
       </div>
       <button type="submit" class="btn btn-primary" id="submit-term">Submit Term
       </button>

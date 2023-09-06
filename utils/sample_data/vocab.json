@@ -4,7 +4,7 @@
     "vocabType": "Keyword",
     "firebaseKey": "-NdM3eLV7YwwXDgnfS1C",
     "definition": "Haste is a keyword ability that allows a creature to circumvent summoning sickness. Creatures with haste can attack or use activated abilities with the tap symbol in the activation cost even if they have not been continuously controlled by a player since the beginning of that player's most recent turn.",
-    "uid": "h8rIdo8X6OZYJrPqQ3UypHyib8Q2",
+    "uid": "mW6xAGLWaeWyiDIucTCGVEMUMC03",
     "timeStamp":"2023-04-11 22:58:44"
   },
   "-NdM3tr5CkcSrQs4XdNt": {
@@ -12,7 +12,7 @@
     "firebaseKey": "-NdM3tr5CkcSrQs4XdNt",
     "vocabType": "Card type",
     "definition": "A card or token on the battlefield. Permanents can be artifacts, creatures, enchantments, or lands. Once a permanent is on the battlefield, it stays there until it's destroyed, exiled, sacrificed, or otherwise removed according to the game rules. You can't remove a permanent from the battlefield just because you want to, even if you control it.",
-    "uid": "h8rIdo8X6OZYJrPqQ3UypHyib8Q2",
+    "uid": "mW6xAGLWaeWyiDIucTCGVEMUMC03",
     "timeStamp":"2021-12-12 21:21:42"
   },
   "-NdM3ww6qzYcrW7q9XPH": {
@@ -20,7 +20,7 @@
     "firebaseKey": "-NdM3ww6qzYcrW7q9XPH",
     "vocabType": "Turn structure",
     "definition": "The main phase is both the second and fourth phases of a turn. Non-instants can usually only be played during this phase, only by the active player, and only when the stack is empty.",
-    "uid": "h8rIdo8X6OZYJrPqQ3UypHyib8Q2",
+    "uid": "mW6xAGLWaeWyiDIucTCGVEMUMC03",
     "timeStamp":"2023-05-28 13:01:48"
   },
   "-NdM3zyhKDW568hXIwTn": {
@@ -28,7 +28,7 @@
     "firebaseKey": "-NdM3zyhKDW568hXIwTn",
     "vocabType": "Turn structure",
     "definition": "An imaginary place where spells and abilities go when waiting to resolve. Anything that happens after a spell or ability goes on the stack will then go on the stack on top of that, creating an ordering of how things resolve, starting with the most recent ability or spell added to the stack.",
-    "uid": "h8rIdo8X6OZYJrPqQ3UypHyib8Q2",
+    "uid": "mW6xAGLWaeWyiDIucTCGVEMUMC03",
     "timeStamp":"2023-06-03 11:36:59"
   },
   "-NdM41DvmI2kKCmgti8O": {
@@ -36,7 +36,7 @@
     "firebaseKey": "-NdM41DvmI2kKCmgti8O",
     "vocabType": "Lingo",
     "definition": "The total cost of a card, in mana, to cast it.",
-    "uid": "h8rIdo8X6OZYJrPqQ3UypHyib8Q2",
+    "uid": "mW6xAGLWaeWyiDIucTCGVEMUMC03",
     "timeStamp":"2022-09-26 02:10:57"
   },
   "-NdM43M6V4WXcWAcGN1t": {
@@ -44,7 +44,7 @@
     "firebaseKey": "-NdM43M6V4WXcWAcGN1t",
     "vocabType": "Keyword",
     "definition": "A keyword ability that changes the rules for assigning damage in the Combat Damage Step. An attacker with trample deals excess damage to the defending player, planeswalker or battle even if it is blocked.",
-    "uid": "h8rIdo8X6OZYJrPqQ3UypHyib8Q2",
+    "uid": "mW6xAGLWaeWyiDIucTCGVEMUMC03",
     "timeStamp":"2022-01-05 23:48:05"
   },
   "-NdM464PvZgqEfioGixn": {
@@ -52,7 +52,7 @@
     "firebaseKey": "-NdM464PvZgqEfioGixn",
     "vocabType": "Turn structure",
     "definition": "The second step of your turn, between your untap and draw steps. It's meant for triggers that are set to happen before your draw step and open up the opportunity for players to cast spells and activate other abilities before a player's draw step, but after they've untapped.",
-    "uid": "h8rIdo8X6OZYJrPqQ3UypHyib8Q2",
+    "uid": "mW6xAGLWaeWyiDIucTCGVEMUMC03",
     "timeStamp":"2022-11-11 09:42:27"
   },
   "-NdM48G8wN04gx4yVFsM": {
@@ -60,7 +60,7 @@
     "firebaseKey": "-NdM48G8wN04gx4yVFsM",
     "vocabType": "Lingo",
     "definition": "Cards or strategies that return cards from the graveyard to a player's hand, or allow players to re-use cards from their graveyards.",
-    "uid": "h8rIdo8X6OZYJrPqQ3UypHyib8Q2",
+    "uid": "mW6xAGLWaeWyiDIucTCGVEMUMC03",
     "timeStamp":"2022-12-11 09:42:27"
   }
 }

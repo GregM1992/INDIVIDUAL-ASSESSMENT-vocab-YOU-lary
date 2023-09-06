@@ -55,6 +55,17 @@ const updateTerm = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+const deleteTerm = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab/${firebaseKey}.json`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+  }).then((response) => response.json())
+    .then(resolve)
+    .catch(reject);
+});
+
 export {
-  getVocab, getSingleTerm, createTerm, updateTerm
+  getVocab, getSingleTerm, createTerm, updateTerm, deleteTerm
 };

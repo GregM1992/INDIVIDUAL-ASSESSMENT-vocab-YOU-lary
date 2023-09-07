@@ -2,6 +2,7 @@ import { getVocab } from '../api/vocabCalls';
 import addTermForm from '../components/form';
 import { showVocab } from '../pages/vocab';
 import buttonString from '../shared/termButtons';
+import { signOut } from '../utils/auth';
 import clearForm from '../utils/clearForm';
 
 const navEvents = (user) => {
@@ -21,6 +22,11 @@ const navEvents = (user) => {
     if (e.target.id.includes('all-vocab')) {
       clearForm();
       getVocab(user.uid).then((terms) => showVocab(terms));
+    }
+  });
+  document.querySelector('#nav-bar').addEventListener('click', (e) => {
+    if (e.target.id.includes('google-log')) {
+      signOut();
     }
   });
 };

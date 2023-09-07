@@ -20,9 +20,6 @@ const domEvents = (user) => {
         });
       }
     }
-    if (e.target.id.includes('add-term-btn')) {
-      addTermForm(user.uid);
-    }
 
     if (e.target.id.includes('update-btn')) {
       const [, firebaseKey] = e.target.id.split('--');

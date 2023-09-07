@@ -1,4 +1,6 @@
-import { deleteTerm, getSingleTerm, getVocab } from '../api/vocabCalls';
+import {
+  deleteTerm, getSingleTerm, getTermIfCardType, getTermIfKeyword, getTermIfLingo, getTermIfTurnStructure, getVocab
+} from '../api/vocabCalls';
 import addTermForm from '../components/form';
 import { noVocab, showVocab } from '../pages/vocab';
 
@@ -20,10 +22,21 @@ const domEvents = (user) => {
         });
       }
     }
-
     if (e.target.id.includes('update-btn')) {
       const [, firebaseKey] = e.target.id.split('--');
       getSingleTerm(firebaseKey).then((termInfo) => addTermForm(user.uid, termInfo));
+    }
+    if (e.target.id.includes('keyword-btn')) {
+      getTermIfKeyword().then(showVocab);
+    }
+    if (e.target.id.includes('turn-structure-btn')) {
+      getTermIfTurnStructure().then(showVocab);
+    }
+    if (e.target.id.includes('lingo-btn')) {
+      getTermIfLingo().then(showVocab);
+    }
+    if (e.target.id.includes('card-type-btn')) {
+      getTermIfCardType().then(showVocab);
     }
   });
 };

@@ -8,7 +8,7 @@ const buttonString = () => {
   <button type="button" class="btn btn-outline-light" id=
   "card-type-btn">Card Type</button>
   `;
-  renderToDom('#vocab-container', domString);
+  renderToDom('#btn-container', domString);
 };
 
 export default buttonString;

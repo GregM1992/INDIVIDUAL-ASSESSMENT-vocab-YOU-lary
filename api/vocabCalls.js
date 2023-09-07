@@ -66,6 +66,64 @@ const deleteTerm = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+const getTermIfKeyword = (vocabType) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab.json/?orderBy="vocabType"&equalTo"${vocabType}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const filteredTerms = Object.values(data).filter((term) => term.vocabType === 'Keyword');
+      resolve(filteredTerms);
+    })
+    .catch(reject);
+});
+
+const getTermIfTurnStructure = (vocabType) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab.json/?orderBy="vocabType"&equalTo"${vocabType}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const filteredTerms = Object.values(data).filter((term) => term.vocabType === 'Turn structure');
+      resolve(filteredTerms);
+    })
+    .catch(reject);
+});
+
+const getTermIfLingo = (vocabType) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab.json/?orderBy="vocabType"&equalTo"${vocabType}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const filteredTerms = Object.values(data).filter((term) => term.vocabType === 'Lingo');
+      resolve(filteredTerms);
+    })
+    .catch(reject);
+});
+const getTermIfCardType = (vocabType) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocab.json/?orderBy="vocabType"&equalTo"${vocabType}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const filteredTerms = Object.values(data).filter((term) => term.vocabType === 'Card type');
+      resolve(filteredTerms);
+    })
+    .catch(reject);
+});
 export {
-  getVocab, getSingleTerm, createTerm, updateTerm, deleteTerm
+  getVocab, getSingleTerm, createTerm, updateTerm, deleteTerm, getTermIfKeyword, getTermIfTurnStructure, getTermIfLingo, getTermIfCardType
 };

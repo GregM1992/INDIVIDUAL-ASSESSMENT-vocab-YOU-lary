@@ -8,11 +8,11 @@ import navbar from '../shared/navbar';
 
 const startApp = (user) => {
   domBuilder(user);
-  navbar(user);
   getVocab(user.uid).then((terms) => showVocab(terms));
-  formEvents(user);
-  navEvents(user);
   domEvents(user);
+  navbar(user);
+  navEvents(user);
+  formEvents(user);
 };
 
 export default startApp;

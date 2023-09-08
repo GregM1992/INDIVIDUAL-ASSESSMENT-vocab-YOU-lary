@@ -4,6 +4,7 @@ import addTermForm from '../components/form';
 import { showVocab } from '../pages/vocab';
 import buttonString from '../shared/termButtons';
 import { signOut } from '../utils/auth';
+import clearDom from '../utils/clearDom';
 import clearForm from '../utils/clearForm';
 
 const navEvents = (user) => {
@@ -16,6 +17,7 @@ const navEvents = (user) => {
 
   document.querySelector('#nav-bar').addEventListener('click', (e) => {
     if (e.target.id.includes('term-type')) {
+      clearDom();
       clearForm();
       buttonString();
     }

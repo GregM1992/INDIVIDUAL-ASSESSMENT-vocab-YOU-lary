@@ -1,8 +1,15 @@
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
+// @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "~bootstrap/scss/bootstrap";
+@font-face {
+  font-family: 'beleren';
+  src: url('../styles/fonts/Beleren2016-Bold.woff') format('woff');
+  font-weight: normal;
+}
 
 
 body {
+  font-family: 'beleren';
+  font-weight: normal;
   background-color: rgb(15, 9, 1);
   color: brown;
   text-align: center;

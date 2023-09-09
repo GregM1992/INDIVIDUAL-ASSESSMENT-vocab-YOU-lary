@@ -124,6 +124,13 @@ const getTermIfCardType = (vocabType) => new Promise((resolve, reject) => {
     })
     .catch(reject);
 });
+const searchTerms = (searchValue, uid) => new Promise((resolve, reject) => {
+  getVocab(uid).then((terms) => {
+    const search = terms.filter((term) => term.term.toLowerCase().includes(searchValue));
+    resolve(search);
+  }).catch(reject);
+});
+
 export {
-  getVocab, getSingleTerm, createTerm, updateTerm, deleteTerm, getTermIfKeyword, getTermIfTurnStructure, getTermIfLingo, getTermIfCardType
+  getVocab, getSingleTerm, createTerm, updateTerm, deleteTerm, getTermIfKeyword, getTermIfTurnStructure, getTermIfLingo, getTermIfCardType, searchTerms
 };

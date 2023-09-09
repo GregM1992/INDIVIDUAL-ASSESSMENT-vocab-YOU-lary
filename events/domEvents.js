@@ -1,10 +1,9 @@
 import {
-  deleteTerm, getSingleTerm, getTermIfCardType, getTermIfKeyword, getTermIfLingo, getTermIfTurnStructure, getVocab
+  deleteTerm, getSingleTerm, getTermIfCardType, getTermIfKeyword, getTermIfLingo, getTermIfTurnStructure, getVocab,
 } from '../api/vocabCalls';
 import addTermForm from '../components/form';
 import { noVocab, showVocab } from '../pages/vocab';
 
-// import addTermForm from '../components/form';
 const domEvents = (user) => {
   document.querySelector('#main-container').addEventListener('click', (e) => {
     if (e.target.id.includes('delete-btn')) {

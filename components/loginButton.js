@@ -7,7 +7,7 @@ const loginButton = (user) => {
   if (user) {
     document.querySelector('#login-form-container').innerHTML = domString;
   } else if (!user) {
-    domString = '<button id="google-auth" class="btn btn-danger">GOOGLE LOGIN</button>';
+    domString = '<button id="google-auth" class="btn btn-outline-secondary">GOOGLE LOGIN</button>';
     document.querySelector('#login-form-container').innerHTML = domString;
     document.querySelector('#google-auth').addEventListener('click', signIn);
   }

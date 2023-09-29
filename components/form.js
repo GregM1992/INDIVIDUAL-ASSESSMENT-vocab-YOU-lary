@@ -13,10 +13,10 @@ const addTermForm = (uid, word = {}) => {
       <label for="vocab-type">Type</label>
       <select id="vocab-type" class="form-select" aria-label="Default select example">
           <option selected disabled>${word.vocabType || 'Select Vocabulary Type'}</option>
-          <option value="${word.vocabType || 'Keyword'}">Keyword</option>
-          <option value="${word.vocabType || 'Turn structure'}">Turn structure</option>
-          <option value="${word.vocabType || 'Lingo'}">Lingo</option>
-          <option value="${word.vocabType || 'Card type'}">Card type</option>
+          <option value="Keyword">Keyword</option>
+          <option value="Turn structure">Turn structure</option>
+          <option value="Lingo">Lingo</option>
+          <option value="Card type">Card type</option>
       </select>
       <div class="form-group">
         <label for="description">Definition</label>
